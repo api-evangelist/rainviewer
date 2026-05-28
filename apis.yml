@@ -1,0 +1,32 @@
+aid: rainviewer
+name: RainViewer
+description: "Radar data collected from different websites across the Internet"
+url: https://www.rainviewer.com/api.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Weather"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Weather
+  - Public APIs
+apis:
+  - name: RainViewer
+    description: "Radar data collected from different websites across the Internet"
+    humanURL: https://www.rainviewer.com/api.html
+    baseURL: https://www.rainviewer.com/api.html
+    tags:
+      - Weather
+    properties:
+      - type: Documentation
+        url: https://www.rainviewer.com/api.html
+common:
+  - type: Website
+    url: https://www.rainviewer.com/api.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
