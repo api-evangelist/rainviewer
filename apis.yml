@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://www.rainviewer.com/api.html
 common:
+  - type: DomainSecurity
+    url: security/rainviewer-domain-security.yml
   - type: Website
     url: https://www.rainviewer.com/api.html
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://www.rainviewer.com/blog/index.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
