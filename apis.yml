@@ -39,7 +39,6 @@ apis:
   - name: RainViewer
     description: "Radar data collected from different websites across the Internet"
     humanURL: https://www.rainviewer.com/api.html
-    baseURL: https://www.rainviewer.com/api.html
     tags:
       - Weather
     properties:
